@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Menus</title>
+</head>
+<body>
+    <div class="background"></div>
+    <button class="burger" onclick="togglemenu()">
+        <span class="burger-icon"></span>
+    </button>
+    <div class="menu">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div>
+                        <h2>About</h2>
+                        <nav>
+                            <a style="animation-delay: 0.8s;">Profile</a>
+                            <a style="animation-delay: 0.9s;">Skills</a>
+                            <a style="animation-delay: 1s;">Education</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/
+    swiper@9/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
